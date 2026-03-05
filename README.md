@@ -40,7 +40,8 @@ Desarrollar una aplicacion que facilite el manejo de los datos del personal, per
 
 ## 👥 Integrantes del grupo
 
-- Ysaias  
+- Ysaias
+- Hancer D. Matos Sena
 - (Agregar aqui los demas integrantes)
 
 ---
