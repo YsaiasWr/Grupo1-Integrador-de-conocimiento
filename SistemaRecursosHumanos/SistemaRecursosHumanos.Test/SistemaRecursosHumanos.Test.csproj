@@ -16,8 +16,4 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CORE\DOMAIN\ObjectValues\" />
-  </ItemGroup>
-
 </Project>
