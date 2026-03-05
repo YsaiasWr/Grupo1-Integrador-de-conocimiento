@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace SistemaRecursosHumanos.Domain.Exceptions
 {
-    internal class ExcepcionReglaNegocio:Exception
+    internal class ExcepcionReglaNegocio : Exception
     {
-        public ExcepcionReglaNegocio(string msg) : base(msg) {
+        public ExcepcionReglaNegocio(string msg) : base(msg)
+        {
+        }
     }
 }
