@@ -1,0 +1,12 @@
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.deps.json
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.dll
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.pdb
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.AssemblyInfoInputs.cache
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.AssemblyInfo.cs
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.sourcelink.json
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.dll
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\refint\SistemaRecursosHumanos.Domain.dll
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.pdb
+C:\Users\d20a2507\source\repos\YsaiasWr\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\ref\SistemaRecursosHumanos.Domain.dll
