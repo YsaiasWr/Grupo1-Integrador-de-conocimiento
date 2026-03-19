@@ -1,5 +1,5 @@
-﻿using SistemaRecursosHumanos.Domain.Exceptions;
-using SistemaRecursosHumanos.Domain.ObjectsValues;
+﻿using SistemaRecursosHumanos.Domain.ObjectsValues;
+using SistemaRecursosHumanos.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,28 +15,28 @@ namespace SistemaRecursosHumanos.Domain.Entities
         public string Tipoempleado { get; set; } = null!;
         public DocumentoVO Documento { get; set; } = null!;
         public string NombreCompleto { get; set; } = null!;
-        public string Telefono { get; set; } = null!;
+        public TelefonoVO Telefono { get; set; } = null!;
         public string Correo { get; set; } = null!;
         public string Genero { get; set; } = null!;
         public string Direccion { get; set; } = null!;
         public string Estado { get; set; } = null!;
-        public Departamento oDepartamento { get; set; } 
+        public Departamento oDepartamento { get; set; }
         public Cargo oCargo { get; set; } = null!;
-        public DateTime FechaNacimiento { get; set; } 
+        public DateTime FechaNacimiento { get; set; }
         public string Cargo { get; set; } = null!;
-        public DateTime FechaIngreso { get; set; }  
-        public decimal Salario { get; set; }  
+        public DateTime FechaIngreso { get; set; }
+        public decimal Salario { get; set; }
         public string Horario { get; set; } = null!;
         public string Horas { get; set; } = null!;
         public byte[] Imagen { get; set; }
-        //propiedades de la navegacion
+
         //constructores
         public Empleados(string tipoempleado, DocumentoVO documento, string nombrecompleto,
-            string telefono, string correo, string genero, string direccion, string estado, Departamento Odepartamento, Cargo ocargo,
+            TelefonoVO telefono, string correo, string genero, string direccion, string estado, Departamento oDepartamento, Cargo oCargo,
             DateTime fechanacimiento, string cargo, DateTime fechaingreso, decimal salario, string horario, string horas, byte[] imagen)
         {
-            
-            if (string.IsNullOrWhiteSpace(NombreCompleto))
+            // VALIDACIÓN: usar el parámetro recibido, no la propiedad
+            if (string.IsNullOrWhiteSpace(nombrecompleto))
             {
                 throw new ExcepcionReglaNegocio("El Nombre no puede estar vacio");
             }
@@ -46,21 +46,19 @@ namespace SistemaRecursosHumanos.Domain.Entities
             Documento = documento;
             NombreCompleto = nombrecompleto;
             Telefono = telefono;
-            Correo = correo;   
+            Correo = correo;
             Genero = genero;
             Direccion = direccion;
             Estado = estado;
-            oDepartamento = Odepartamento;
-            oCargo = ocargo;  
+            this.oDepartamento = oDepartamento;
+            this.oCargo = oCargo;
             FechaNacimiento = fechanacimiento;
             Cargo = cargo;
-            FechaNacimiento = fechaingreso;
+            FechaIngreso = fechaingreso;    // CORRECCIÓN: asignar FechaIngreso correctamente
             Salario = salario;
             Horario = horario;
             Horas = horas;
             Imagen = imagen;
-
-
         }
 
         //metodos

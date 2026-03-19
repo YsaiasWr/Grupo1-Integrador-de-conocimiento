@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Persistence
 {
-    internal interface IEmpleadoRepositorio : Irepositorio <Empleados>
+    public interface IEmpleadoRepositorio : Irepositorio <Empleados>
     {
     }
 }
