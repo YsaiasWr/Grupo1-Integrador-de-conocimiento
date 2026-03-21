@@ -1,13 +1,18 @@
 ﻿using SistemaRecursosHumanos.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SistemaRecursosHumanos.Domain.Interfaces;
 
-namespace SistemaRecursoshumanos.Application.Contracts.Persistence
+namespace SistemaRecursosHumanos.Core.Persistence
 {
-    public interface IEmpleadoRepositorio : Irepositorio <Empleados>
+    public class EmpleadoRepositorio : IEmpleadoRepositorio
     {
+        private readonly List<Empleado> _empleados = new();
+
+        public void Agregar(Empleado empleado)
+        {
+            Empleado.Id = _empleados.Count + 1;
+            _empleados.Add(empleado);
+        }
+
+        public IEnumerable<Empleado> ObtenerTodos() => _empleados;
     }
 }

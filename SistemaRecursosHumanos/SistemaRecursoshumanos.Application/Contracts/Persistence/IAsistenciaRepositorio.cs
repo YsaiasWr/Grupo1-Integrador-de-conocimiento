@@ -1,21 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SistemaRecursosHumanos.Domain.Entities;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using SistemaRecursosHumanos.Domain.Interfaces;
 
-
-namespace SistemaRecursoshumanos.Application.Contracts.Persistence
+namespace SistemaRecursosHumanos.Core.Persistence
 {
-
-    // Heredamos de IRepositorio si ya tienen métodos genéricos
-    public interface IAsistenciaRepositorio : Irepositorio<Asistencia>
+    public class AsistenciaRepositorio : IAsistenciaRepositorio
     {
-        // Métodos específicos para asistencia
-        Task<IEnumerable<Asistencia>> GetAsistenciasPorEmpleado(int empleadoId);
-    }
+        private readonly List<Asistencia> _asistencias = new();
 
+        public void Agregar(Asistencia asistencia)
+        {
+            asistencia.Id = _asistencias.Count + 1;
+            _asistencias.Add(asistencia);
+        }
+
+        public IEnumerable<Asistencia> ObtenerTodas() => _asistencias;
+    }
 }
+
