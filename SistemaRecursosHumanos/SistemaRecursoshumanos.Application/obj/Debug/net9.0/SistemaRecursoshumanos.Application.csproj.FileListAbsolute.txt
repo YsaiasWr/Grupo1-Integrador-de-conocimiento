@@ -1,0 +1,16 @@
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.AssemblyInfo.cs
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.sourcelink.json
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\bin\Debug\net9.0\SistemaRecursoshumanos.Application.deps.json
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\bin\Debug\net9.0\SistemaRecursoshumanos.Application.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\bin\Debug\net9.0\SistemaRecursoshumanos.Application.pdb
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.pdb
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaR.113DF1C0.Up2Date
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\refint\SistemaRecursoshumanos.Application.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\SistemaRecursoshumanos.Application.pdb
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursoshumanos.Application\obj\Debug\net9.0\ref\SistemaRecursoshumanos.Application.dll

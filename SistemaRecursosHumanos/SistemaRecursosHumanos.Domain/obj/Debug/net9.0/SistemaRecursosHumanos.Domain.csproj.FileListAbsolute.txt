@@ -1,0 +1,12 @@
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.deps.json
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\bin\Debug\net9.0\SistemaRecursosHumanos.Domain.pdb
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.AssemblyInfo.cs
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.sourcelink.json
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\refint\SistemaRecursosHumanos.Domain.dll
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\SistemaRecursosHumanos.Domain.pdb
+C:\Users\pc\source\repos\Grupo1-Integrador-de-conocimiento\SistemaRecursosHumanos\SistemaRecursosHumanos.Domain\obj\Debug\net9.0\ref\SistemaRecursosHumanos.Domain.dll
