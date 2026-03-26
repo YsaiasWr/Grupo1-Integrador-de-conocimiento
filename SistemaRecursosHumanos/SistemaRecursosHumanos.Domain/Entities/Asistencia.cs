@@ -8,14 +8,27 @@ namespace SistemaRecursosHumanos.Domain.Entities
 {
     public class Asistencia
     {
-        public int Id { get; set; }
+        public Guid IdAsistencia { get; set; }
         public DateTime Fecha { get; set; }
         public DateTime HoraEntrada { get; set; }
-        public DateTime? HoraSalida { get; set; } // Nullable porque puede que aún no haya salido
+        public DateTime? HoraSalida { get; set; }
+        public string Estado { get; set; } = null!;
 
-        // Relación con Empleado
-        public int EmpleadoId { get; set; }
+        // Relación
+        public Guid IdEmpleado { get; set; }
         public Empleados Empleado { get; set; }
+
+        public Asistencia(DateTime fecha, DateTime horaEntrada, DateTime? horaSalida, string estado, Guid idEmpleado)
+        {
+            IdAsistencia = Guid.NewGuid();
+
+            Fecha = fecha;
+            HoraEntrada = horaEntrada;
+            HoraSalida = horaSalida;
+            Estado = estado;
+
+            IdEmpleado = idEmpleado;
+        }
     }
 
 }

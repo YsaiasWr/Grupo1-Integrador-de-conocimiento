@@ -10,7 +10,8 @@ namespace SistemaRecursosHumanos.Domain.ObjectsValues
 {
     public sealed record DocumentoVO
     {
-        public string Valor { get; }
+        public string Valor { get; set; }
+        public DocumentoVO() { }
         public DocumentoVO(string valor)
         {
             if (string.IsNullOrWhiteSpace(valor))

@@ -33,6 +33,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj"
+              },
               "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj"
               }
@@ -55,9 +58,15 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.13, )"
+              "version": "[9.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
@@ -284,6 +293,12 @@
               "version": "[9.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.14, )"
             }

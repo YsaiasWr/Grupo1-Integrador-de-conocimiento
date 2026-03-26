@@ -15,7 +15,7 @@ namespace SistemaRecursoshumanos.Application.Contracts.Persistence
     public interface IAsistenciaRepositorio : Irepositorio<Asistencia>
     {
         // Métodos específicos para asistencia
-        Task<IEnumerable<Asistencia>> GetAsistenciasPorEmpleado(int empleadoId);
+        //Task<IEnumerable<Asistencia>> GetAsistenciasPorEmpleado(int empleadoId);
     }
 
 }

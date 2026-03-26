@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi;
+// 👇 ESTE using es importante para Swagger
+//using Microsoft.OpenApi.Models;
 using SistemaRecursoshumanos.Application.Contracts.Persistence;
 using SistemaRecursoshumanos.Application.Contracts.UseCases;
 using SistemaRecursoshumanos.Application.Services;
-
-// 👇 IMPORTANTE: agregar estos using
-
 using SistemaRecursosHumanos.Infrastructure.Data;
-using SistemaRecursosHumanos.Infrastructure;   
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,24 +13,27 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-// 🔹 Repositorios (Infrastructure)
+// 🔹 Repositorios
 builder.Services.AddScoped<IEmpleadoRepositorio, EmpleadoRepositorio>();
 
-// 🔹 UseCases (Application)
+// 🔹 UseCases
 builder.Services.AddScoped<IGestionEmpleadosUseCase, GestionEmpleadosUseCase>();
 
 // 🔹 Controllers
 builder.Services.AddControllers();
 
-// 🔹 Swagger / OpenAPI
-builder.Services.AddOpenApi();
+// 🔹 Swagger (REEMPLAZA OpenApi)
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
 // 🔹 Pipeline
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

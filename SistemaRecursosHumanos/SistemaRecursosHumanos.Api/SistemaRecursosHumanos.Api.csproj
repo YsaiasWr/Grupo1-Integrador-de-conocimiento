@@ -7,10 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SistemaRecursoshumanos.Application\SistemaRecursoshumanos.Application.csproj" />
     <ProjectReference Include="..\SistemaRecursosHumanos.Infrastructure\SistemaRecursosHumanos.Infrastructure.csproj" />
   </ItemGroup>
 

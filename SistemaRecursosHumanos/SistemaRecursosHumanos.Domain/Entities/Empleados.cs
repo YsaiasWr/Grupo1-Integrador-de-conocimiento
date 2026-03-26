@@ -10,57 +10,80 @@ namespace SistemaRecursosHumanos.Domain.Entities
 {
     public class Empleados
     {
-        //Propiedades
-        public Guid Idempleado { get; private set; }
-        public string Tipoempleado { get; set; } = null!;
-        public DocumentoVO Documento { get; set; } = null!;
-        public string NombreCompleto { get; set; } = null!;
-        public TelefonoVO Telefono { get; set; } = null!;
-        public string Correo { get; set; } = null!;
-        public string Genero { get; set; } = null!;
-        public string Direccion { get; set; } = null!;
-        public string Estado { get; set; } = null!;
-        public Departamento oDepartamento { get; set; }
-        public Cargo oCargo { get; set; } = null!;
-        public DateTime FechaNacimiento { get; set; }
-        public string Cargo { get; set; } = null!;
-        public DateTime FechaIngreso { get; set; }
-        public decimal Salario { get; set; }
-        public string Horario { get; set; } = null!;
-        public string Horas { get; set; } = null!;
-        public byte[] Imagen { get; set; }
+        public Guid IdEmpleado { get; private set; }
 
-        //constructores
-        public Empleados(string tipoempleado, DocumentoVO documento, string nombrecompleto,
-            TelefonoVO telefono, string correo, string genero, string direccion, string estado, Departamento oDepartamento, Cargo oCargo,
-            DateTime fechanacimiento, string cargo, DateTime fechaingreso, decimal salario, string horario, string horas, byte[] imagen)
+        public string TipoEmpleado { get; private set; } = null!;
+        public DocumentoVO Documento { get; private set; } = null!;
+        public string NombreCompleto { get; private set; } = null!;
+        public TelefonoVO Telefono { get; private set; } = null!;
+        public string Correo { get; private set; } = null!;
+        public string Genero { get; private set; } = null!;
+        public string Direccion { get; private set; } = null!;
+        public string Estado { get; private set; } = null!;
+
+        public DateTime FechaNacimiento { get; private set; }
+        public DateTime FechaIngreso { get; private set; }
+        public decimal Salario { get; private set; }
+
+        public string Horario { get; private set; } = null!;
+        public string Horas { get; private set; } = null!;
+        public byte[]? Imagen { get; private set; }
+
+        // Relaciones
+        public Guid IdDepartamento { get; private set; }
+        public Departamento Departamento { get; private set; } = null!;
+
+        public Guid IdCargo { get; private set; }
+        public Cargo Cargo { get; private set; } = null!;
+
+        // Relación inversa
+        public ICollection<Asistencia> Asistencias { get; private set; } = new List<Asistencia>();
+
+        // Constructor
+        public Empleados(
+            string tipoEmpleado,
+            DocumentoVO documento,
+            string nombreCompleto,
+            TelefonoVO telefono,
+            string correo,
+            string genero,
+            string direccion,
+            string estado,
+            Guid idDepartamento,
+            Guid idCargo,
+            DateTime fechaNacimiento,
+            DateTime fechaIngreso,
+            decimal salario,
+            string horario,
+            string horas,
+            byte[]? imagen)
         {
-            // VALIDACIÓN: usar el parámetro recibido, no la propiedad
-            if (string.IsNullOrWhiteSpace(nombrecompleto))
-            {
-                throw new ExcepcionReglaNegocio("El Nombre no puede estar vacio");
-            }
+            if (string.IsNullOrWhiteSpace(nombreCompleto))
+                throw new ExcepcionReglaNegocio("El nombre no puede estar vacío");
 
-            Idempleado = Guid.CreateVersion7();
-            Tipoempleado = tipoempleado;
+            if (salario <= 0)
+                throw new ExcepcionReglaNegocio("El salario debe ser mayor que 0");
+
+            IdEmpleado = Guid.NewGuid();
+
+            TipoEmpleado = tipoEmpleado;
             Documento = documento;
-            NombreCompleto = nombrecompleto;
+            NombreCompleto = nombreCompleto;
             Telefono = telefono;
             Correo = correo;
             Genero = genero;
             Direccion = direccion;
             Estado = estado;
-            this.oDepartamento = oDepartamento;
-            this.oCargo = oCargo;
-            FechaNacimiento = fechanacimiento;
-            Cargo = cargo;
-            FechaIngreso = fechaingreso;    // CORRECCIÓN: asignar FechaIngreso correctamente
+
+            IdDepartamento = idDepartamento;
+            IdCargo = idCargo;
+
+            FechaNacimiento = fechaNacimiento;
+            FechaIngreso = fechaIngreso;
             Salario = salario;
             Horario = horario;
             Horas = horas;
             Imagen = imagen;
         }
-
-        //metodos
     }
 }
