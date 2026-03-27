@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|solutionrelative:sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -190,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,7 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "20260327024559_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:45:59.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GestionDepartamentoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GestionEmpleadosUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
@@ -224,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Empleados.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Empleados.cs",
@@ -237,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Asistencia.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Asistencia.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Asistencia.cs",
@@ -250,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
@@ -263,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cargo.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Cargo.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Cargo.cs",
@@ -276,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GestionCargosUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
@@ -289,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GestionAsistenciaUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionAsistenciaUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionAsistenciaUseCase.cs",
@@ -302,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IGestionDepartamentoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionDepartamentoUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionDepartamentoUseCase.cs",
@@ -315,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IGestionAsistenciaUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionAsistenciaUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionAsistenciaUseCase.cs",
@@ -328,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IAsistenciaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IAsistenciaRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IAsistenciaRepositorio.cs",
@@ -341,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IGestionCargosUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionCargosUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionCargosUseCase.cs",
@@ -354,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IEmpleadoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IEmpleadoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IEmpleadoRepositorio.cs",
@@ -367,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\appsettings.json",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DepartamentoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\DepartamentoController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\DepartamentoController.cs",
@@ -393,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DepartamentoDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\DepartamentoDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\DepartamentoDTO.cs",
@@ -406,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Departamento.cs",
@@ -419,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CargoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\CargoController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\CargoController.cs",
@@ -432,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DepartamentoMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\DepartamentoMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\DepartamentoMapperExtensions.cs",
@@ -445,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\EmpleadosController.cs",
@@ -458,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CargoDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\CargoDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\CargoDTO.cs",
@@ -471,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ExcepcionReglaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
@@ -484,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CargoMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\CargoMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\CargoMapperExtensions.cs",
@@ -497,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AsistenciaDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
@@ -510,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ICargoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\ICargoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Interfaces\\ICargoRepositorio.cs",
@@ -523,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IDepartamentoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
@@ -536,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IDepartamento.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
@@ -549,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DepartamentoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Repositories\\DepartamentoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Repositories\\DepartamentoRepositorio.cs",
@@ -562,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ICargo.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\ICargo.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\ICargo.cs",
@@ -575,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CargoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Repositories\\CargoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Repositories\\CargoRepositorio.cs",
@@ -588,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AsistenciaMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\AsistenciaMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\AsistenciaMapperExtensions.cs",
@@ -605,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "AsistenciaController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
@@ -618,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "EmpleadosMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
@@ -631,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "EmpleadoDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
@@ -644,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Resultado.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Result\\Resultado.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Result\\Resultado.cs",
@@ -657,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SistemaRecursosHumanos.Api.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
@@ -670,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "AsistenciaModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\AsistenciaModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\AsistenciaModel.cs",
@@ -682,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "CargoModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\CargoModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\CargoModel.cs",
@@ -694,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "EmpleadoModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\EmpleadoModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\EmpleadoModel.cs",
@@ -706,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "DepartamentoModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\DepartamentoModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\DepartamentoModel.cs",
@@ -718,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "DocumentoVO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
@@ -730,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "SistemaRecursosHumanos.Test.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
@@ -742,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "TelefonoVO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
@@ -754,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "DocumentoVOTest.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTest.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTest.cs",
@@ -766,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\Class1.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\Class1.cs",
