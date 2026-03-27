@@ -5,6 +5,114 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Asistencia/entrada": {
+      "post": {
+        "tags": [
+          "Asistencia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearAsistenciaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearAsistenciaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearAsistenciaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Asistencia/salida/{id}": {
+      "put": {
+        "tags": [
+          "Asistencia"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarAsistenciaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarAsistenciaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarAsistenciaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Asistencia": {
+      "get": {
+        "tags": [
+          "Asistencia"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Asistencia/{id}": {
+      "get": {
+        "tags": [
+          "Asistencia"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Empleados": {
       "get": {
         "tags": [
@@ -12,7 +120,33 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmpleadoDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmpleadoDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmpleadoDTO"
+                  }
+                }
+              }
+            }
           }
         }
       },
@@ -24,53 +158,41 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
+                "$ref": "#/components/schemas/CrearEmpleadoDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
+                "$ref": "#/components/schemas/CrearEmpleadoDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
+                "$ref": "#/components/schemas/CrearEmpleadoDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Empleados"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmpleadoModel"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
               }
             }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
           }
         }
       }
@@ -93,7 +215,81 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Empleados"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarEmpleadoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarEmpleadoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarEmpleadoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmpleadoDTO"
+                }
+              }
+            }
           }
         }
       },
@@ -115,6 +311,46 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Empleados/existe/{id}": {
+      "get": {
+        "tags": [
+          "Empleados"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
           }
         }
       }
@@ -161,99 +397,36 @@
   },
   "components": {
     "schemas": {
-      "Cargo": {
+      "ActualizarAsistenciaDTO": {
         "type": "object",
         "properties": {
-          "idcargo": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nombrecargo": {
+          "idAsistencia": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "descripcion": {
+          "horaSalida": {
             "type": "string",
-            "nullable": true
-          },
-          "sueldo": {
-            "type": "number",
-            "format": "double"
-          },
-          "departamento": {
-            "type": "string",
-            "nullable": true
-          },
-          "fecharegistro": {
-            "type": "string",
-            "nullable": true
-          },
-          "estado": {
-            "type": "string",
-            "nullable": true
+            "format": "date-time"
           }
         },
         "additionalProperties": false
       },
-      "Departamento": {
+      "ActualizarEmpleadoDTO": {
         "type": "object",
         "properties": {
-          "iddepartamento": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "descripcion": {
-            "type": "string",
-            "nullable": true
-          },
-          "fecharegistro": {
-            "type": "string",
-            "nullable": true
-          },
-          "estado": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "DocumentoVO": {
-        "type": "object",
-        "properties": {
-          "valor": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "EmpleadoModel": {
-        "type": "object",
-        "properties": {
-          "idempleado": {
-            "type": "string",
-            "format": "uuid",
-            "nullable": true
-          },
-          "tipoempleado": {
-            "type": "string",
-            "nullable": true
-          },
-          "documento": {
-            "$ref": "#/components/schemas/DocumentoVO"
-          },
           "nombreCompleto": {
             "type": "string",
             "nullable": true
           },
-          "telefono": {
-            "$ref": "#/components/schemas/TelefonoVO"
+          "tipoEmpleado": {
+            "type": "string",
+            "nullable": true
           },
           "correo": {
             "type": "string",
             "nullable": true
           },
-          "genero": {
+          "telefono": {
             "type": "string",
             "nullable": true
           },
@@ -261,54 +434,119 @@
             "type": "string",
             "nullable": true
           },
-          "estado": {
+          "salario": {
+            "type": "number",
+            "format": "double"
+          },
+          "idDepartamento": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "oDepartamento": {
-            "$ref": "#/components/schemas/Departamento"
+          "idCargo": {
+            "type": "string",
+            "format": "uuid"
           },
-          "oCargo": {
-            "$ref": "#/components/schemas/Cargo"
+          "idEmpleado": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CrearAsistenciaDTO": {
+        "type": "object",
+        "properties": {
+          "idEmpleado": {
+            "type": "string",
+            "format": "uuid"
           },
-          "fechaNacimiento": {
+          "fecha": {
             "type": "string",
             "format": "date-time"
           },
-          "cargo": {
+          "horaEntrada": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CrearEmpleadoDTO": {
+        "type": "object",
+        "properties": {
+          "nombreCompleto": {
             "type": "string",
             "nullable": true
           },
-          "fechaIngreso": {
+          "tipoEmpleado": {
             "type": "string",
-            "format": "date-time"
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
           },
           "salario": {
             "type": "number",
             "format": "double"
           },
-          "horario": {
+          "idDepartamento": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "horas": {
+          "idCargo": {
             "type": "string",
-            "nullable": true
-          },
-          "imagen": {
-            "type": "string",
-            "format": "byte",
-            "nullable": true
+            "format": "uuid"
           }
         },
         "additionalProperties": false
       },
-      "TelefonoVO": {
+      "EmpleadoDTO": {
         "type": "object",
         "properties": {
-          "valor": {
+          "idEmpleado": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombreCompleto": {
             "type": "string",
             "nullable": true
+          },
+          "tipoEmpleado": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "salario": {
+            "type": "number",
+            "format": "double"
+          },
+          "idDepartamento": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "idCargo": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false
@@ -339,6 +577,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Asistencia"
+    },
     {
       "name": "Empleados"
     },

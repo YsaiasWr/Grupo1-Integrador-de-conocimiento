@@ -1,18 +1,11 @@
-﻿using SistemaRecursosHumanos.Domain.Entities;
+﻿using SistemaRecursoshumanos.Application.Contracts.Persistence;
+using SistemaRecursosHumanos.Domain.Entities;
 using SistemaRecursosHumanos.Domain.Interfaces;
 
-namespace SistemaRecursosHumanos.Core.Persistence
+namespace SistemaRecursoshumanos.Application.Contracts.Persistence
 {
-    public class EmpleadoRepositorio : IEmpleadoRepositorio
+    public interface IEmpleadoRepositorio : Irepositorio<Empleados>
     {
-        private readonly List<Empleado> _empleados = new();
-
-        public void Agregar(Empleado empleado)
-        {
-            Empleado.Id = _empleados.Count + 1;
-            _empleados.Add(empleado);
-        }
-
-        public IEnumerable<Empleado> ObtenerTodos() => _empleados;
+        
     }
 }

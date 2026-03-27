@@ -1,13 +1,17 @@
-﻿using SistemaRecursosHumanos.Domain.Entities;
-using SistemaRecursosHumanos.Domain.ObjectsValues;
+﻿using SistemaRecursoshumanos.Application.DTO;
+
 using SistemaRecursoshumanos.Application.Models;
-using System.Security.Cryptography.X509Certificates;
+using SistemaRecursosHumanos.Domain.Entities;
+using SistemaRecursosHumanos.Domain.ObjectsValues;
 
 namespace SistemaRecursoshumanos.Application.Utilities.Mappers
 {
     public static class EmpleadosMapperExtensions
     {
-        // 🔹 Entity → Model
+        // ================================
+        // 🔹 Entity ↔ Model
+        // ================================
+
         public static EmpleadoModel ToModel(this Empleados entity)
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));
@@ -16,9 +20,9 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
             {
                 IdEmpleado = entity.IdEmpleado,
                 TipoEmpleado = entity.TipoEmpleado,
-                Documento = entity.Documento.ToString(), // si es VO
+                Documento = entity.Documento.ToString(),
                 NombreCompleto = entity.NombreCompleto,
-                Telefono = entity.Telefono.ToString(),   // si es VO
+                Telefono = entity.Telefono.ToString(),
                 Correo = entity.Correo,
                 Genero = entity.Genero,
                 Direccion = entity.Direccion,
@@ -32,13 +36,11 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
                 Horas = entity.Horas,
                 Imagen = entity.Imagen,
 
-                // Opcional
                 NombreDepartamento = entity.Departamento?.Descripcion,
                 NombreCargo = entity.Cargo?.NombreCargo
             };
         }
 
-        // 🔹 Model → Entity
         public static Empleados ToEntity(this EmpleadoModel model)
         {
             if (model == null) throw new ArgumentNullException(nameof(model));
@@ -63,7 +65,6 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
             );
         }
 
-        // 🔹 Listas
         public static IReadOnlyList<EmpleadoModel> ToModels(this IEnumerable<Empleados> entities)
         {
             if (entities == null) throw new ArgumentNullException(nameof(entities));
@@ -74,6 +75,69 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
         {
             if (models == null) throw new ArgumentNullException(nameof(models));
             return models.Select(m => m.ToEntity()).ToList();
+        }
+
+        // ================================
+        // 🔹 Model ↔ DTO
+        // ================================
+
+        public static EmpleadoDTO ToDTO(this EmpleadoModel model)
+        {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
+            return new EmpleadoDTO
+            {
+                IdEmpleado = model.IdEmpleado,
+                NombreCompleto = model.NombreCompleto,
+                TipoEmpleado = model.TipoEmpleado,
+                Correo = model.Correo,
+                Telefono = model.Telefono,
+                Direccion = model.Direccion,
+                Salario = model.Salario,
+                IdDepartamento = model.IdDepartamento,
+                IdCargo = model.IdCargo
+            };
+        }
+
+        public static EmpleadoModel ToModel(this CrearEmpleadoDTO dto)
+        {
+            if (dto == null) throw new ArgumentNullException(nameof(dto));
+
+            return new EmpleadoModel
+            {
+                NombreCompleto = dto.NombreCompleto,
+                TipoEmpleado = dto.TipoEmpleado,
+                Correo = dto.Correo,
+                Telefono = dto.Telefono,
+                Direccion = dto.Direccion,
+                Salario = dto.Salario,
+                IdDepartamento = dto.IdDepartamento,
+                IdCargo = dto.IdCargo
+            };
+        }
+
+        public static EmpleadoModel ToModel(this ActualizarEmpleadoDTO dto)
+        {
+            if (dto == null) throw new ArgumentNullException(nameof(dto));
+
+            return new EmpleadoModel
+            {
+                IdEmpleado = dto.IdEmpleado,
+                NombreCompleto = dto.NombreCompleto,
+                TipoEmpleado = dto.TipoEmpleado,
+                Correo = dto.Correo,
+                Telefono = dto.Telefono,
+                Direccion = dto.Direccion,
+                Salario = dto.Salario,
+                IdDepartamento = dto.IdDepartamento,
+                IdCargo = dto.IdCargo
+            };
+        }
+
+        public static IReadOnlyList<EmpleadoDTO> ToDTOs(this IEnumerable<EmpleadoModel> models)
+        {
+            if (models == null) throw new ArgumentNullException(nameof(models));
+            return models.Select(m => m.ToDTO()).ToList();
         }
     }
 }
