@@ -1,6 +1,6 @@
 ﻿
 using SistemaRecursoshumanos.Application.Contracts.Persistence;
-
+using SistemaRecursoshumanos.Application.Contracts.UseCases;
 using SistemaRecursoshumanos.Application.Models;
 using SistemaRecursoshumanos.Application.Result;
 
@@ -10,7 +10,7 @@ using SistemaRecursosHumanos.Domain.Entities;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public class GestionAsistenciaUseCase
+    public class GestionAsistenciaUseCase : IGestionAsistenciaUseCase
     {
         private readonly IAsistenciaRepositorio _repository;
 

@@ -1,6 +1,7 @@
-﻿using SistemaRecursosHumanos.Domain.Entities;
-using SistemaRecursosHumanos.Domain.ObjectsValues;
+﻿using SistemaRecursoshumanos.Application.DTO;
 using SistemaRecursoshumanos.Application.Models;
+using SistemaRecursosHumanos.Domain.Entities;
+using SistemaRecursosHumanos.Domain.ObjectsValues;
 using System.Security.Cryptography.X509Certificates;
 
 namespace SistemaRecursoshumanos.Application.Utilities.Mappers
@@ -53,5 +54,41 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
 
             return models.Select(m => m.ToEntity()).ToList();
         }
+
+        //mapper del dto
+        // 🔹 Model → DTO
+        public static DepartamentoDTO ToDTO(this DepartamentoModel model)
+        {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
+            return new DepartamentoDTO
+            {
+                IdDepartamento = model.IdDepartamento,
+                Descripcion = model.Descripcion,
+                FechaRegistro = model.FechaRegistro,
+                Estado = model.Estado
+            };
+        }
+
+        // 🔹 DTO → Model
+        public static DepartamentoModel ToModel(this DepartamentoDTO dto)
+        {
+            if (dto == null) throw new ArgumentNullException(nameof(dto));
+
+            return new DepartamentoModel
+            {
+                IdDepartamento = dto.IdDepartamento,
+                Descripcion = dto.Descripcion,
+                FechaRegistro = dto.FechaRegistro,
+                Estado = dto.Estado
+            };
+        }
+
+        // 🔹 Listas
+        public static IReadOnlyList<DepartamentoDTO> ToDTOs(this IEnumerable<DepartamentoModel> models)
+            => models.Select(m => m.ToDTO()).ToList();
+
+        public static IReadOnlyList<DepartamentoModel> ToModels(this IEnumerable<DepartamentoDTO> dtos)
+            => dtos.Select(d => d.ToModel()).ToList();
     }
 }

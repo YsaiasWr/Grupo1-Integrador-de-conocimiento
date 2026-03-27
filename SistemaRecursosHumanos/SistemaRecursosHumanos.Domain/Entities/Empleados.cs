@@ -8,8 +8,12 @@ using System.Threading.Tasks;
 
 namespace SistemaRecursosHumanos.Domain.Entities
 {
+    // 🔹 Constructor vacío para EF Core
+    
     public class Empleados
     {
+        // 🔹 Constructor vacío para EF Core
+        private Empleados() { }
         public Guid IdEmpleado { get; private set; }
 
         public string TipoEmpleado { get; private set; } = null!;
