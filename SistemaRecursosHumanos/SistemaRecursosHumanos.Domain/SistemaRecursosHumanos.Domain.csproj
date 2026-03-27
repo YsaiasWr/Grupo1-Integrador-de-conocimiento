@@ -9,8 +9,12 @@
   <ItemGroup>
     <Folder Include="Aggregates\" />
     <Folder Include="Enums\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Interfaces\IAsistenciaRepositorio.cs" />
+    <None Include="Interfaces\IEmpleadoRepositorio.cs" />
   </ItemGroup>
 
 </Project>

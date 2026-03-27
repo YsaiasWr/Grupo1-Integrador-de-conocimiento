@@ -4,7 +4,7 @@ namespace SistemaRecursosHumanos.Domain.Interfaces
 {
     public interface IEmpleadoRepositorio
     {
-        void Agregar(Empleado empleado);
-        IEnumerable<Empleado> ObtenerTodos();
+        void Agregar(Empleados empleado);
+        IEnumerable<Empleados> ObtenerTodos();
     }
 }
