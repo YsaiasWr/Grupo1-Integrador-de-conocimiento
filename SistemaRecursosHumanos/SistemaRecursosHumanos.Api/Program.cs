@@ -42,4 +42,22 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+
+Var builder = WebApplication.CreateBuilder(args);
+
+// Inyección de dependencias
+builder.Services.AddSingleton<IReporteRepositorio, ReporteRepositorio>();
+builder.Services.AddTransient<GenerarReporteUseCase>();
+
+builder.Services.AddSingleton<IHistorialUsuarioRepositorio, HistorialUsuarioRepositorio>();
+builder.Services.AddTransient<RegistrarHistorialUsuarioUseCase>();
+
+builder.Services.AddControllers();
+
+var app = builder.Build();
+
+app.MapControllers();
+
+
 app.Run();
