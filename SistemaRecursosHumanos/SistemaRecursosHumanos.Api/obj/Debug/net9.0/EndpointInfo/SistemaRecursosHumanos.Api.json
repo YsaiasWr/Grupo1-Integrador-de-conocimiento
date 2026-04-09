@@ -668,6 +668,18 @@
             "type": "string",
             "nullable": true
           },
+          "documento": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
           "tipoEmpleado": {
             "type": "string",
             "nullable": true
@@ -682,6 +694,27 @@
           },
           "direccion": {
             "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horario": {
+            "type": "string",
+            "nullable": true
+          },
+          "horas": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagen": {
+            "type": "string",
+            "format": "byte",
             "nullable": true
           },
           "salario": {
@@ -762,7 +795,23 @@
       "CrearEmpleadoDTO": {
         "type": "object",
         "properties": {
+          "idEmpleado": {
+            "type": "string",
+            "format": "uuid"
+          },
           "nombreCompleto": {
+            "type": "string",
+            "nullable": true
+          },
+          "documento": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
             "type": "string",
             "nullable": true
           },
@@ -780,6 +829,27 @@
           },
           "direccion": {
             "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horario": {
+            "type": "string",
+            "nullable": true
+          },
+          "horas": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagen": {
+            "type": "string",
+            "format": "byte",
             "nullable": true
           },
           "salario": {
@@ -830,6 +900,18 @@
             "type": "string",
             "nullable": true
           },
+          "documento": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
           "tipoEmpleado": {
             "type": "string",
             "nullable": true
@@ -844,6 +926,27 @@
           },
           "direccion": {
             "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horario": {
+            "type": "string",
+            "nullable": true
+          },
+          "horas": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagen": {
+            "type": "string",
+            "format": "byte",
             "nullable": true
           },
           "salario": {

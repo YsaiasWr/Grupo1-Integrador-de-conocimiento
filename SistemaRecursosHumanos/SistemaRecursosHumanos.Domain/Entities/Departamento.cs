@@ -32,5 +32,18 @@ namespace SistemaRecursosHumanos.Domain.Entities
             FechaRegistro = fechaRegistro;
             Estado = estado;
         }
+        // 🔹 Método para actualizar sin cambiar el Id
+        public void Actualizar(string descripcion, DateTime fechaRegistro, string estado)
+        {
+            if (string.IsNullOrWhiteSpace(descripcion))
+                throw new ArgumentException("La descripción del departamento no puede estar vacía.");
+
+            if (string.IsNullOrWhiteSpace(estado))
+                throw new ArgumentException("El estado no puede estar vacío.");
+
+            Descripcion = descripcion;
+            FechaRegistro = fechaRegistro;
+            Estado = estado;
+        }
     }
 }

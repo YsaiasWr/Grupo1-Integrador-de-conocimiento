@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaRecursoshumanos.Application.Contracts.Services;
+using SistemaRecursoshumanos.Application.Contracts.UseCases;
 using SistemaRecursoshumanos.Application.DTO;
 
 using SistemaRecursoshumanos.Application.Utilities.Mappers;
@@ -10,9 +11,9 @@ namespace SistemaRecursoshumanos.API.Controllers
     [Route("api/[controller]")]
     public class CargoController : ControllerBase
     {
-        private readonly GestionCargosUseCase _service;
+        private readonly IGestionCargosUseCase _service;
 
-        public CargoController(GestionCargosUseCase service)
+        public CargoController(IGestionCargosUseCase service)
         {
             _service = service;
         }

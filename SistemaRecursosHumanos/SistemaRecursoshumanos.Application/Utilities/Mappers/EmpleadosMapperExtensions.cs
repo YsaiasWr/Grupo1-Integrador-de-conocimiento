@@ -88,6 +88,13 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
             return new EmpleadoDTO
             {
                 IdEmpleado = model.IdEmpleado,
+                Documento = model.Documento,
+                Genero = model.Genero,
+                Estado = model.Estado,
+                FechaIngreso = model.FechaIngreso,
+                FechaNacimiento = model.FechaNacimiento,
+                Horario = model.Horario,
+                Horas = model.Horas,
                 NombreCompleto = model.NombreCompleto,
                 TipoEmpleado = model.TipoEmpleado,
                 Correo = model.Correo,

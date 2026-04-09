@@ -31,7 +31,7 @@ namespace SistemaRecursosHumanos.Domain.Entities
 
         public string Horario { get; private set; } = null!;
         public string Horas { get; private set; } = null!;
-        public byte[]? Imagen { get; private set; }
+        public byte[]? Imagen { get; private set; } = null!;
 
         // Relaciones
         public Guid IdDepartamento { get; private set; }
