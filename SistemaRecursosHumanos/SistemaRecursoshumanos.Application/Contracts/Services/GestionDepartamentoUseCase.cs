@@ -38,19 +38,26 @@ namespace SistemaRecursoshumanos.Application.Contracts.Services
             }
         }
 
-        public async Task<Resultado<DepartamentoModel>> ActualizarAsync(DepartamentoModel model, CancellationToken ct = default)
+        public async Task<Resultado<DepartamentoModel>> ActualizarAsync(
+            DepartamentoModel model,
+            CancellationToken ct = default)
         {
             var existente = await _repository.ObtenerPorIdAsync(model.IdDepartamento, ct);
 
             if (existente == null)
                 return Resultado.Fail<DepartamentoModel>("Departamento no existe");
 
-            var entity = model.ToEntity();
+            existente.Actualizar(
+                model.Descripcion,
+                model.FechaRegistro,
+                model.Estado
+            );
 
-            var actualizado = await _repository.ActualizarAsync(entity, ct);
+            var actualizado = await _repository.ActualizarAsync(existente, ct);
 
             return Resultado.Ok(actualizado.ToModel());
         }
+
 
         public async Task<Resultado<bool>> EliminarAsync(Guid id, CancellationToken ct = default)
         {

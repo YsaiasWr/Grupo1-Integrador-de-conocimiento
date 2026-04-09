@@ -41,5 +41,25 @@ namespace SistemaRecursosHumanos.Domain.Entities
             FechaRegistro = fechaRegistro;
             Estado = estado;
         }
+
+        // Constructor vacío para EF
+        private Cargo() { }
+
+        // 🔹 Método para actualizar sin crear un nuevo Id
+        public void Actualizar(
+            string nombreCargo,
+            string descripcion,
+            decimal sueldo,
+            Guid idDepartamento,
+            DateTime fechaRegistro,
+            string estado)
+        {
+            NombreCargo = nombreCargo;
+            Descripcion = descripcion;
+            Sueldo = sueldo;
+            IdDepartamento = idDepartamento;
+            FechaRegistro = fechaRegistro;
+            Estado = estado;
+        }
     }
 }

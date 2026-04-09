@@ -11,10 +11,18 @@ namespace SistemaRecursoshumanos.Application.DTO
     {
         public Guid IdEmpleado { get; set; }
         public string NombreCompleto { get; set; } = null!;
+        public string Documento { get; set; } = null!;
+        public string Genero { get; set; } = null!;
+        public string Estado { get; set; } = null!;
         public string TipoEmpleado { get; set; } = null!;
         public string Correo { get; set; } = null!;
         public string Telefono { get; set; } = null!;
         public string Direccion { get; set; } = null!;
+        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaIngreso { get; set; }
+        public string Horario { get; set; } = null!;
+        public string Horas { get; set; } = null!;
+        public byte[]? Imagen { get; set; }
         public decimal Salario { get; set; }
         public Guid IdDepartamento { get; set; }
         public Guid IdCargo { get; set; }
@@ -22,12 +30,21 @@ namespace SistemaRecursoshumanos.Application.DTO
 
     public class CrearEmpleadoDTO
     {
+        public Guid IdEmpleado { get; set; }
         public string NombreCompleto { get; set; } = null!;
+        public string Documento { get; set; } = null!;
+        public string Genero { get; set; } = null!;
+        public string Estado { get; set; } = null!;
         public string TipoEmpleado { get; set; } = null!;
         public string Correo { get; set; } = null!;
         public string Telefono { get; set; } = null!;
         public string Direccion { get; set; } = null!;
-        public decimal Salario { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaIngreso { get; set; }
+        public string Horario { get; set; } = null!;
+        public string Horas { get; set; } = null!;
+        public byte[]? Imagen { get; set; }=null!;
+        public decimal Salario { get; set; } 
         public Guid IdDepartamento { get; set; }
         public Guid IdCargo { get; set; }
     }

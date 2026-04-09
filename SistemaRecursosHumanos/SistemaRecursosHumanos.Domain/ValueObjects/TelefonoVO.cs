@@ -20,7 +20,7 @@ namespace SistemaRecursosHumanos.Domain.ObjectsValues
             }
             else if (valor.Length != 10)
             {
-                throw new ExcepcionReglaNegocio("El Documento debe tener exactamente 10 caracteres");
+                throw new ExcepcionReglaNegocio("El Telefono debe tener exactamente 10 caracteres");
             }
             Valor = valor;
         }

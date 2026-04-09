@@ -28,7 +28,7 @@ namespace SistemaRecursoshumanos.Application.Models
 
         public string Horario { get; set; } = null!;
         public string Horas { get; set; } = null!;
-        public byte[]? Imagen { get; set; }
+        public byte[]? Imagen { get; set; } = null!;
 
         // Solo IDs (relaciones)
         public Guid IdDepartamento { get; set; }

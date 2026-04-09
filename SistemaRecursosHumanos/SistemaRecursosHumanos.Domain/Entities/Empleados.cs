@@ -8,8 +8,12 @@ using System.Threading.Tasks;
 
 namespace SistemaRecursosHumanos.Domain.Entities
 {
+    // 🔹 Constructor vacío para EF Core
+    
     public class Empleados
     {
+        // 🔹 Constructor vacío para EF Core
+        private Empleados() { }
         public Guid IdEmpleado { get; private set; }
 
         public string TipoEmpleado { get; private set; } = null!;
@@ -27,7 +31,7 @@ namespace SistemaRecursosHumanos.Domain.Entities
 
         public string Horario { get; private set; } = null!;
         public string Horas { get; private set; } = null!;
-        public byte[]? Imagen { get; private set; }
+        public byte[]? Imagen { get; private set; } = null!;
 
         // Relaciones
         public Guid IdDepartamento { get; private set; }
@@ -78,6 +82,41 @@ namespace SistemaRecursosHumanos.Domain.Entities
             IdDepartamento = idDepartamento;
             IdCargo = idCargo;
 
+            FechaNacimiento = fechaNacimiento;
+            FechaIngreso = fechaIngreso;
+            Salario = salario;
+            Horario = horario;
+            Horas = horas;
+            Imagen = imagen;
+        }
+        public void Actualizar(
+    string tipoEmpleado,
+    DocumentoVO documento,
+    string nombreCompleto,
+    TelefonoVO telefono,
+    string correo,
+    string genero,
+    string direccion,
+    string estado,
+    Guid idDepartamento,
+    Guid idCargo,
+    DateTime fechaNacimiento,
+    DateTime fechaIngreso,
+    decimal salario,
+    string horario,
+    string horas,
+    byte[]? imagen)
+        {
+            TipoEmpleado = tipoEmpleado;
+            Documento = documento;
+            NombreCompleto = nombreCompleto;
+            Telefono = telefono;
+            Correo = correo;
+            Genero = genero;
+            Direccion = direccion;
+            Estado = estado;
+            IdDepartamento = idDepartamento;
+            IdCargo = idCargo;
             FechaNacimiento = fechaNacimiento;
             FechaIngreso = fechaIngreso;
             Salario = salario;

@@ -13,11 +13,11 @@ using SistemaRecursoshumanos.Application.Utilities.Mappers;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public class GestionCargosUseCase
+    public class GestionCargosUseCase : IGestionCargosUseCase
     {
         private readonly Contracts.Persistence.ICargo _repository;
 
-        GestionCargosUseCase(ICargo repository)
+        public GestionCargosUseCase(Contracts.Persistence.ICargo repository)
         {
             _repository = repository;
         }
@@ -32,9 +32,21 @@ namespace SistemaRecursoshumanos.Application.Contracts.Services
         public async Task<Resultado<CargoModel>> ActualizarAsync(CargoModel model, CancellationToken ct = default)
         {
             var existente = await _repository.ObtenerPorIdAsync(model.IdCargo, ct);
+
             if (existente == null)
                 return Resultado.Fail<CargoModel>("Cargo no existe");
-            var actualizado = await _repository.ActualizarAsync(model.ToEntity(), ct);
+
+            existente.Actualizar(
+                model.NombreCargo,
+                model.Descripcion,
+                model.Sueldo,
+                model.IdDepartamento,
+                model.FechaRegistro,
+                model.Estado
+            );
+
+            var actualizado = await _repository.ActualizarAsync(existente, ct);
+
             return Resultado.Ok(actualizado.ToModel());
         }
 
