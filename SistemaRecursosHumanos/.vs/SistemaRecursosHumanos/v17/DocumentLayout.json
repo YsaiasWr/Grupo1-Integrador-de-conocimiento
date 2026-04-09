@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\valueobjects\\documentovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\valueobjects\\documentovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\utilities\\mappers\\empleadosmapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\utilities\\mappers\\empleadosmapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\contracts\\services\\gestionempleadosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\contracts\\services\\gestionempleadosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\contracts\\services\\gestiondepartamentousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\contracts\\services\\gestiondepartamentousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\valueobjects\\telefonovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\valueobjects\\telefonovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\valueobjects\\documentovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\valueobjects\\documentovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\contracts\\persistence\\iempleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +31,40 @@
       "RelativeMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|solutionrelative:sistemarecursoshumanos.api\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.api\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|solutionrelative:sistemarecursoshumanos.api\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|solutionrelative:sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\dto\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\interfaces\\idepartamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\interfaces\\idepartamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\exceptions\\excepcionreglanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\exceptions\\excepcionreglanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\utilities\\mappers\\empleadosmapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\utilities\\mappers\\empleadosmapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\dto\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\dto\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|solutionrelative:sistemarecursoshumanos.api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\contracts\\services\\gestiondepartamentousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\contracts\\services\\gestiondepartamentousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\contracts\\services\\gestioncargosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\contracts\\services\\gestioncargosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.infrastructure\\repositories\\departamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|solutionrelative:sistemarecursoshumanos.infrastructure\\repositories\\cargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.api\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC30B9F-37AB-4C30-B195-9089364EC532}|SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj|solutionrelative:sistemarecursoshumanos.api\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\models\\departamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\models\\departamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\utilities\\mappers\\departamentomapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\utilities\\mappers\\departamentomapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05D12DDA-7CCF-4A6F-92D5-1FCA1B0E0D4B}|SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj|solutionrelative:sistemarecursoshumanos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\entities\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,20 +139,8 @@
       "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\dto\\cargodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\dto\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\dto\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\exceptions\\excepcionreglanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\exceptions\\excepcionreglanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\interfaces\\idepartamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\interfaces\\idepartamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\utilities\\mappers\\asistenciamapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.application\\models\\asistenciamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF6F6E93-C4F5-4096-95F0-B5A76C2DA15F}|SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj|solutionrelative:sistemarecursoshumanos.application\\models\\asistenciamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.domain\\valueobjects\\telefonovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4043C5F5-7804-498F-ACAC-354CDCED622F}|SistemaRecursosHumanos.Domain\\SistemaRecursosHumanos.Domain.csproj|solutionrelative:sistemarecursoshumanos.domain\\valueobjects\\telefonovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FDA4EF2-5EC4-490A-B085-EFFC684F296E}|SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj|c:\\users\\pc\\source\\repos\\grupo1-integrador-de-conocimiento\\sistemarecursoshumanos\\sistemarecursoshumanos.test\\sistemarecursoshumanos.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -186,40 +182,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GestionEmpleadosUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
               "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionEmpleadosUseCase.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T22:05:38.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDepartamento.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DocumentoVO.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:57:55.956Z",
+              "WhenOpened": "2026-03-19T21:27:45.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionDepartamentoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
+              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
+              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T22:35:51.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelefonoVO.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T21:46:47.805Z",
               "EditorCaption": ""
             },
             {
@@ -237,41 +251,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmpleadoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwC4AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
+              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
+              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T23:56:22.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DocumentoVO.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\ValueObjects\\DocumentoVO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T21:27:45.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmpleadosMapperExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAuwGAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T23:57:20.341Z",
+              "WhenOpened": "2026-03-26T17:57:55.956Z",
               "EditorCaption": ""
             },
             {
@@ -282,7 +270,7 @@
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\EmpleadosController.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\EmpleadosController.cs",
               "RelativeToolTip": "SistemaRecursosHumanos.Api\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T22:47:56.438Z",
               "EditorCaption": ""
@@ -290,6 +278,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AsistenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T22:46:34.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T21:30:06.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmpleadoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
+              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
+              "RelativeToolTip": "SistemaRecursoshumanos.Application\\DTO\\EmpleadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T23:56:22.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDepartamentoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T01:19:27.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExcepcionReglaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
+              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T16:52:37.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmpleadosMapperExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
+              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
+              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\EmpleadosMapperExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T23:57:20.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AsistenciaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
+              "RelativeToolTip": "SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T00:24:54.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CargoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\CargoController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\CargoController.cs",
@@ -302,20 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GestionDepartamentoUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionDepartamentoUseCase.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T22:35:51.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "DepartamentoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Repositories\\DepartamentoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Repositories\\DepartamentoRepositorio.cs",
@@ -328,20 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GestionCargosUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionCargosUseCase.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T23:27:23.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CargoModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\CargoModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\CargoModel.cs",
@@ -353,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Departamento.cs",
@@ -366,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ICargo.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\ICargo.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\ICargo.cs",
@@ -378,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Cargo.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Cargo.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Cargo.cs",
@@ -391,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CargoMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\CargoMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\CargoMapperExtensions.cs",
@@ -404,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "CargoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Repositories\\CargoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Repositories\\CargoRepositorio.cs",
@@ -416,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "IGestionCargosUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionCargosUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionCargosUseCase.cs",
@@ -428,19 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AsistenciaController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Api\\Controllers\\AsistenciaController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T22:46:34.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "DepartamentoModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Models\\DepartamentoModel.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Models\\DepartamentoModel.cs",
@@ -452,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "DepartamentoMapperExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Utilities\\Mappers\\DepartamentoMapperExtensions.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Utilities\\Mappers\\DepartamentoMapperExtensions.cs",
@@ -464,19 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwEEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T21:30:06.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Asistencia.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Entities\\Asistencia.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Entities\\Asistencia.cs",
@@ -488,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "20260327024559_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Infrastructure\\Migrations\\20260327024559_Inicial.cs",
@@ -500,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "GestionAsistenciaUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionAsistenciaUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Services\\GestionAsistenciaUseCase.cs",
@@ -512,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "IGestionDepartamentoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionDepartamentoUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionDepartamentoUseCase.cs",
@@ -524,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "IGestionAsistenciaUseCase.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionAsistenciaUseCase.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\UseCases\\IGestionAsistenciaUseCase.cs",
@@ -536,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "IAsistenciaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IAsistenciaRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\Contracts\\Persistence\\IAsistenciaRepositorio.cs",
@@ -548,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\appsettings.json",
@@ -560,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "DepartamentoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\Controllers\\DepartamentoController.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Api\\Controllers\\DepartamentoController.cs",
@@ -572,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "DepartamentoDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\DepartamentoDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\DepartamentoDTO.cs",
@@ -584,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "CargoDTO.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\CargoDTO.cs",
               "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\CargoDTO.cs",
@@ -596,31 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ExcepcionReglaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T16:52:37.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AsistenciaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
-              "RelativeDocumentMoniker": "SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
-              "RelativeToolTip": "SistemaRecursoshumanos.Application\\DTO\\AsistenciaDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA8wAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T00:24:54.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ICargoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\ICargoRepositorio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Interfaces\\ICargoRepositorio.cs",
@@ -629,18 +634,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T01:19:06.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IDepartamentoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Interfaces\\IDepartamentoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:19:27.775Z"
             },
             {
               "$type": "Document",
@@ -692,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "SistemaRecursosHumanos.Test.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
@@ -704,19 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "TelefonoVO.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
-              "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
-              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\ValueObjects\\TelefonoVO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T21:46:47.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "DocumentoVOTest.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTest.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTest.cs",
@@ -728,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\Class1.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\Class1.cs",

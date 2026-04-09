@@ -4,6 +4,7 @@ using SistemaRecursoshumanos.Application.Models;
 using SistemaRecursoshumanos.Application.Result;
 using SistemaRecursoshumanos.Application.Utilities.Mappers;
 using SistemaRecursosHumanos.Domain.Interfaces;
+using SistemaRecursosHumanos.Domain.ObjectsValues;
 
 
 namespace SistemaRecursoshumanos.Application.Services
@@ -35,8 +36,29 @@ namespace SistemaRecursoshumanos.Application.Services
         {
             var existente = await _repo.ObtenerPorIdAsync(model.IdEmpleado, ct);
             if (existente == null)
-                return Resultado.Fail<EmpleadoModel>("Cargo no existe");
-            var actualizado = await _repo.ActualizarAsync(model.ToEntity(), ct);
+                return Resultado.Fail<EmpleadoModel>("Empleado no existe");
+            existente.Actualizar(
+                
+               model.TipoEmpleado,
+                new DocumentoVO(model.Documento),
+                model.NombreCompleto,
+                new TelefonoVO(model.Telefono),
+                model.Correo,
+                model.Genero,
+                model.Direccion,
+                model.Estado,
+                model.IdDepartamento,
+                model.IdCargo,
+                model.FechaNacimiento,
+                model.FechaIngreso,
+                model.Salario,
+                model.Horario,
+                model.Horas,
+                model.Imagen
+
+
+            );
+            var actualizado = await _repo.ActualizarAsync(existente, ct);
             return Resultado.Ok(actualizado.ToModel());
         }
 

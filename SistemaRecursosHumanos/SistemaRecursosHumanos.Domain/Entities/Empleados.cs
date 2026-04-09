@@ -89,5 +89,40 @@ namespace SistemaRecursosHumanos.Domain.Entities
             Horas = horas;
             Imagen = imagen;
         }
+        public void Actualizar(
+    string tipoEmpleado,
+    DocumentoVO documento,
+    string nombreCompleto,
+    TelefonoVO telefono,
+    string correo,
+    string genero,
+    string direccion,
+    string estado,
+    Guid idDepartamento,
+    Guid idCargo,
+    DateTime fechaNacimiento,
+    DateTime fechaIngreso,
+    decimal salario,
+    string horario,
+    string horas,
+    byte[]? imagen)
+        {
+            TipoEmpleado = tipoEmpleado;
+            Documento = documento;
+            NombreCompleto = nombreCompleto;
+            Telefono = telefono;
+            Correo = correo;
+            Genero = genero;
+            Direccion = direccion;
+            Estado = estado;
+            IdDepartamento = idDepartamento;
+            IdCargo = idCargo;
+            FechaNacimiento = fechaNacimiento;
+            FechaIngreso = fechaIngreso;
+            Salario = salario;
+            Horario = horario;
+            Horas = horas;
+            Imagen = imagen;
+        }
     }
 }

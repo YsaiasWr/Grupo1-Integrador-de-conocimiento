@@ -112,7 +112,14 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
 
             return new EmpleadoModel
             {
+                IdEmpleado = dto.IdEmpleado,
+                Documento = dto.Documento,
                 NombreCompleto = dto.NombreCompleto,
+                Genero = dto.Genero,
+                Estado = dto.Estado,
+                Horario = dto.Horario,
+                Horas = dto.Horas,
+                Imagen = dto.Imagen,
                 TipoEmpleado = dto.TipoEmpleado,
                 Correo = dto.Correo,
                 Telefono = dto.Telefono,
@@ -130,7 +137,13 @@ namespace SistemaRecursoshumanos.Application.Utilities.Mappers
             return new EmpleadoModel
             {
                 IdEmpleado = dto.IdEmpleado,
+                Documento = dto.Documento,
                 NombreCompleto = dto.NombreCompleto,
+                Genero = dto.Genero,
+                Estado = dto.Estado,
+                Horario = dto.Horario,
+                Horas = dto.Horas,
+                Imagen= dto.Imagen,
                 TipoEmpleado = dto.TipoEmpleado,
                 Correo = dto.Correo,
                 Telefono = dto.Telefono,
