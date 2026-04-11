@@ -68,5 +68,15 @@ var app = builder.Build();
 
 app.MapControllers();
 
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<IRolRepositorio, RolRepositorio>();
+builder.Services.AddTransient<RegistrarRolUseCase>();
+
+builder.Services.AddSingleton<IPermisoRepositorio, PermisoRepositorio>();
+builder.Services.AddTransient<RegistrarPermisoUseCase>();
+
+
+
 
 app.Run();
