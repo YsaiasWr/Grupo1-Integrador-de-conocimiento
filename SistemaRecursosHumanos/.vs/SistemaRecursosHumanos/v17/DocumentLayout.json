@@ -206,11 +206,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -218,9 +222,9 @@
               "Title": "TelefonoVOTests.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\TelefonoVOTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T19:31:23.189Z",
               "EditorCaption": ""
@@ -231,8 +235,8 @@
               "Title": "DocumentoVOTests.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs*",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\DOMAIN\\ObjectValues\\DocumentoVOTests.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T19:28:56.941Z",
@@ -270,8 +274,8 @@
               "Title": "ExcepcionReglaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs*",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Domain\\Exceptions\\ExcepcionReglaNegocio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T16:52:37.772Z",
@@ -309,8 +313,8 @@
               "Title": "DepartamentoUseCaseTest.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs*",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\DepartamentoUseCaseTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T19:21:09.486Z",
@@ -322,8 +326,8 @@
               "Title": "EmpleadoUseCaseTest.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs*",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs",
+              "RelativeToolTip": "SistemaRecursosHumanos.Test\\CORE\\Application\\Contracts\\Services\\EmpleadoUseCaseTest.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAQwBQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T19:24:14.599Z",
@@ -374,8 +378,8 @@
               "Title": "SistemaRecursosHumanos.Test.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
               "RelativeDocumentMoniker": "SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
-              "ToolTip": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj*",
-              "RelativeToolTip": "SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj*",
+              "ToolTip": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
+              "RelativeToolTip": "SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-26T17:36:28.658Z",
@@ -419,10 +423,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T20:11:49.28Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
