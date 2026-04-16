@@ -8,16 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="CORE\DOMAIN\ObjectValues\DocumentoVOTest.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="CORE\DOMAIN\ObjectValues\DocumentoVOTest.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="MSTest" Version="3.6.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaRecursoshumanos.Application\SistemaRecursoshumanos.Application.csproj" />
+    <ProjectReference Include="..\SistemaRecursosHumanos.Domain\SistemaRecursosHumanos.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
