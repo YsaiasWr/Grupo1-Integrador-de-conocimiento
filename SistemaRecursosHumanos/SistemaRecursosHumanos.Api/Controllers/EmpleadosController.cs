@@ -11,9 +11,9 @@ namespace SistemaRecursosHumanos.API.Controllers
     [Route("api/[controller]")]
     public class EmpleadosController : ControllerBase
     {
-        private readonly IGestionEmpleadosUseCase _empleadoUseCase;
+        private readonly IEmpleadosService _empleadoUseCase;
 
-        public EmpleadosController(IGestionEmpleadosUseCase empleadoUseCase)
+        public EmpleadosController(IEmpleadosService empleadoUseCase)
         {
             _empleadoUseCase = empleadoUseCase;
         }

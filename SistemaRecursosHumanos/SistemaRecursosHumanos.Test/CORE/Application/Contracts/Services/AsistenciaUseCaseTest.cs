@@ -15,13 +15,13 @@ namespace SistemaRecursosHumanos.Test.CORE.Application.Contracts.Services
     public class AsistenciaUseCaseTest
     {
         private Mock<IAsistenciaRepositorio> _repoMock;
-        private GestionAsistenciaUseCase _service;
+        private AsistenciaService _service;
 
         [TestInitialize]
         public void Setup()
         {
             _repoMock = new Mock<IAsistenciaRepositorio>();
-            _service = new GestionAsistenciaUseCase(_repoMock.Object);
+            _service = new AsistenciaService(_repoMock.Object);
         }
 
         // =====================================

@@ -11,9 +11,9 @@ namespace SistemaRecursoshumanos.API.Controllers
     [Route("api/[controller]")]
     public class CargoController : ControllerBase
     {
-        private readonly IGestionCargosUseCase _service;
+        private readonly ICargosService _service;
 
-        public CargoController(IGestionCargosUseCase service)
+        public CargoController(ICargosService service)
         {
             _service = service;
         }

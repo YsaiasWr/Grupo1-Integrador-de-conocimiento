@@ -7,14 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Aggregates\" />
-    <Folder Include="Enums\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Interfaces\IAsistenciaRepositorio.cs" />
-    <None Include="Interfaces\IEmpleadoRepositorio.cs" />
+    <Compile Remove="Aggregates\**" />
+    <Compile Remove="Enums\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Aggregates\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Aggregates\**" />
+    <None Remove="Enums\**" />
+    <None Remove="Services\**" />
   </ItemGroup>
 
 </Project>

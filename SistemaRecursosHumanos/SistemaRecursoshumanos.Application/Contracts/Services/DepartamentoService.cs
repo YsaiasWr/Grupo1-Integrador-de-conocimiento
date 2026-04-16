@@ -13,11 +13,11 @@ using SistemaRecursoshumanos.Application.Utilities.Mappers;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public class GestionDepartamentoUseCase : IGestionDepartamentoUseCase
+    public class DepartamentoService : IDepartamentoService
     {
         private readonly Contracts.Persistence.IDepartamento _repository;
 
-        public GestionDepartamentoUseCase(IDepartamento repository)
+        public DepartamentoService(IDepartamento repository)
         {
             _repository = repository;
         }

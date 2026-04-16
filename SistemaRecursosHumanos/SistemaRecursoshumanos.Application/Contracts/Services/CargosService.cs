@@ -13,11 +13,11 @@ using SistemaRecursoshumanos.Application.Utilities.Mappers;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public class GestionCargosUseCase : IGestionCargosUseCase
+    public class CargosService : ICargosService
     {
         private readonly Contracts.Persistence.ICargo _repository;
 
-        public GestionCargosUseCase(Contracts.Persistence.ICargo repository)
+        public CargosService(Contracts.Persistence.ICargo repository)
         {
             _repository = repository;
         }

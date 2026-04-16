@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaRecursoshumanos.Application.Contracts.UseCases
+namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public interface IGestionEmpleadosUseCase
+    public interface IEmpleadosService
     {
         Task<Resultado<EmpleadoModel>> GuardarEmpleadoAsync(EmpleadoModel model, CancellationToken ct =default);
         Task<Resultado<EmpleadoModel>> CrearEmpleadoAsync(EmpleadoModel model, CancellationToken ct = default);

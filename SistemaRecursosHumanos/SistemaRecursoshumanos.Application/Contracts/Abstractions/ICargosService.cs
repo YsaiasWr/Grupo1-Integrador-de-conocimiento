@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaRecursoshumanos.Application.Contracts.UseCases
+namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-     public interface IGestionCargosUseCase
+     public interface ICargosService
     {
         Task<Resultado<CargoModel>> CrearAsync(CargoModel model, CancellationToken ct = default);
         Task<Resultado<CargoModel>> ActualizarAsync(CargoModel model, CancellationToken ct = default);

@@ -3,17 +3,17 @@ using SistemaRecursoshumanos.Application.Contracts.UseCases;
 using SistemaRecursoshumanos.Application.Models;
 using SistemaRecursoshumanos.Application.Result;
 using SistemaRecursoshumanos.Application.Utilities.Mappers;
-using SistemaRecursosHumanos.Domain.Interfaces;
+
 using SistemaRecursosHumanos.Domain.ObjectsValues;
 
 
 namespace SistemaRecursoshumanos.Application.Services
 {
-    public class GestionEmpleadosUseCase : IGestionEmpleadosUseCase
+    public class EmpleadosService : IEmpleadosService
     {
         private readonly Contracts.Persistence.IEmpleadoRepositorio _repo;
 
-        public GestionEmpleadosUseCase(Contracts.Persistence.IEmpleadoRepositorio repo)
+        public EmpleadosService(Contracts.Persistence.IEmpleadoRepositorio repo)
         {
             _repo = repo;
         }

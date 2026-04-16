@@ -11,9 +11,9 @@ namespace SistemaRecursoshumanos.API.Controllers
     [Route("api/[controller]")]
     public class DepartamentoController : ControllerBase
     {
-        private readonly IGestionDepartamentoUseCase _departamentoService;
+        private readonly IDepartamentoService _departamentoService;
 
-        public DepartamentoController(IGestionDepartamentoUseCase departamentoService)
+        public DepartamentoController(IDepartamentoService departamentoService)
         {
             _departamentoService = departamentoService;
         }

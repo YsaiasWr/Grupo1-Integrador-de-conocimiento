@@ -10,11 +10,11 @@ using SistemaRecursosHumanos.Domain.Entities;
 
 namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public class GestionAsistenciaUseCase : IGestionAsistenciaUseCase
+    public class AsistenciaService : IAsistenciaService
     {
         private readonly IAsistenciaRepositorio _repository;
 
-        public GestionAsistenciaUseCase(IAsistenciaRepositorio repository)
+        public AsistenciaService(IAsistenciaRepositorio repository)
         {
             _repository = repository;
         }

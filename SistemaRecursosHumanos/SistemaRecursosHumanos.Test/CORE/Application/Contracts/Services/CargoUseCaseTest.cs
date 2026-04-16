@@ -15,13 +15,13 @@ namespace SistemaRecursosHumanos.Test.CORE.Application.Contracts.Services
     public class CargoUseCaseTest
     {
         private Mock<ICargo> _repoMock;
-        private GestionCargosUseCase _service;
+        private CargosService _service;
 
         [TestInitialize]
         public void Setup()
         {
             _repoMock = new Mock<ICargo>();
-            _service = new GestionCargosUseCase(_repoMock.Object);
+            _service = new CargosService(_repoMock.Object);
         }
 
         // =====================================

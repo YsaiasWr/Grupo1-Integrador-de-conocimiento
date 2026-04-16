@@ -16,13 +16,13 @@ namespace SistemaRecursosHumanos.Test.CORE.Application.Contracts.Services
     public class EmpleadoUseCaseTest
     {
         private Mock<IEmpleadoRepositorio> _repoMock;
-        private GestionEmpleadosUseCase _service;
+        private EmpleadosService _service;
 
         [TestInitialize]
         public void Setup()
         {
             _repoMock = new Mock<IEmpleadoRepositorio>();
-            _service = new GestionEmpleadosUseCase(_repoMock.Object);
+            _service = new EmpleadosService(_repoMock.Object);
         }
 
         // =====================================

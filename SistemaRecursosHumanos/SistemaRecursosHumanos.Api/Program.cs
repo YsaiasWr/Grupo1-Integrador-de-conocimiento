@@ -23,10 +23,10 @@ builder.Services.AddScoped<IAsistenciaRepositorio, AsistenciaRepositorio>();
 
 
 // 🔹 UseCases
-builder.Services.AddScoped<IGestionEmpleadosUseCase, GestionEmpleadosUseCase>();
-builder.Services.AddScoped<IGestionCargosUseCase, GestionCargosUseCase>();
-builder.Services.AddScoped<IGestionDepartamentoUseCase, GestionDepartamentoUseCase>();
-builder.Services.AddScoped<IGestionAsistenciaUseCase, GestionAsistenciaUseCase>();
+builder.Services.AddScoped<IEmpleadosService, EmpleadosService>();
+builder.Services.AddScoped<ICargosService, CargosService>();
+builder.Services.AddScoped<IDepartamentoService, DepartamentoService>();
+builder.Services.AddScoped<IAsistenciaService, AsistenciaService>();
 
 // 🔹 Controllers
 builder.Services.AddControllers();

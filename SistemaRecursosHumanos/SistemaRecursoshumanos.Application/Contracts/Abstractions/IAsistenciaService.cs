@@ -11,9 +11,9 @@ using SistemaRecursosHumanos.Domain.Entities;
 using SistemaRecursoshumanos.Application.Utilities.Mappers;
 
 
-namespace SistemaRecursoshumanos.Application.Contracts.UseCases
+namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
-    public interface IGestionAsistenciaUseCase
+    public interface IAsistenciaService
     {
         Task<Resultado<AsistenciaModel>> RegistrarEntradaAsync(AsistenciaModel model, CancellationToken ct = default);
         Task<Resultado<AsistenciaModel>> RegistrarSalidaAsync(Guid idAsistencia, DateTime horaSalida, CancellationToken ct = default);

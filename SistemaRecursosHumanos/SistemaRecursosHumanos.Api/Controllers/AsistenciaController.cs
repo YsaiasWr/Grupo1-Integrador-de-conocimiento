@@ -10,9 +10,9 @@ namespace SistemaRecursosHumanos.API.Controllers
     [Route("api/[controller]")]
     public class AsistenciaController : ControllerBase
     {
-        private readonly IGestionAsistenciaUseCase _useCase;
+        private readonly IAsistenciaService _useCase;
 
-        public AsistenciaController(IGestionAsistenciaUseCase useCase)
+        public AsistenciaController(IAsistenciaService useCase)
         {
             _useCase = useCase;
         }

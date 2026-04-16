@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaRecursoshumanos.Application.Contracts.UseCases
+namespace SistemaRecursoshumanos.Application.Contracts.Services
 {
 
-    public interface IGestionDepartamentoUseCase
+    public interface IDepartamentoService
     {
         Task<Resultado<DepartamentoModel>> CrearAsync(DepartamentoModel model, CancellationToken ct = default);
         Task<Resultado<DepartamentoModel>> ActualizarAsync(DepartamentoModel model, CancellationToken ct = default);
