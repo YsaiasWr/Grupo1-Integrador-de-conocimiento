@@ -24,8 +24,11 @@ public class AsistenciaRepositorio : IAsistenciaRepositorio
     // Obtener todas las asistencias
     public async Task<IReadOnlyList<Asistencia>> ObtenerTodosAsync(CancellationToken ct = default)
     {
-        var lista = await _context.Asistencias.ToListAsync(ct);
-        return lista ?? new List<Asistencia>(); // Por seguridad
+        var lista = await _context.Asistencias
+            .Include(a => a.Empleado)
+            .ToListAsync(ct);
+
+        return lista ?? new List<Asistencia>();
     }
 
     // Obtener asistencia por Id

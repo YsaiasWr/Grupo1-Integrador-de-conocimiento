@@ -54,7 +54,9 @@ namespace SistemaRecursoshumanos.Application.Services
                 model.Salario,
                 model.Horario,
                 model.Horas,
-                model.Imagen
+                string.IsNullOrEmpty(model.Imagen)
+    ? null
+    : Convert.FromBase64String(model.Imagen)
 
 
             );

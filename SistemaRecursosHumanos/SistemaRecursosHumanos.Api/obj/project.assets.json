@@ -5186,9 +5186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
       "projectName": "SistemaRecursosHumanos.Api",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
+      "projectPath": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\SistemaRecursosHumanos.Api.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Api\\obj\\",
       "projectStyle": "PackageReference",
@@ -5205,18 +5205,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj": {
-              "projectPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj"
+            "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj": {
+              "projectPath": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursoshumanos.Application\\SistemaRecursoshumanos.Application.csproj"
             },
-            "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj"
+            "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Infrastructure\\SistemaRecursosHumanos.Infrastructure.csproj"
             }
           }
         }
@@ -5267,7 +5266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

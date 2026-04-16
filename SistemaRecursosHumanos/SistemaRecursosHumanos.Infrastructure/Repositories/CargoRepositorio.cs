@@ -44,7 +44,9 @@ namespace SistemaRecursosHumanos.Infrastructure.Repositories
 
         public async Task<IReadOnlyList<Cargo>> ObtenerTodosAsync(CancellationToken ct = default)
         {
-            return await _context.Cargos.ToListAsync(ct);
+            return await _context.Cargos
+        .Include(c => c.Departamento) // prueba para llamar departamentos
+        .ToListAsync(ct);
         }
     }
 }

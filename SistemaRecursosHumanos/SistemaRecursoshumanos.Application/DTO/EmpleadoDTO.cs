@@ -22,7 +22,7 @@ namespace SistemaRecursoshumanos.Application.DTO
         public DateTime FechaIngreso { get; set; }
         public string Horario { get; set; } = null!;
         public string Horas { get; set; } = null!;
-        public byte[]? Imagen { get; set; }
+        public string Imagen { get; set; }
         public decimal Salario { get; set; }
         public Guid IdDepartamento { get; set; }
         public Guid IdCargo { get; set; }
@@ -43,7 +43,7 @@ namespace SistemaRecursoshumanos.Application.DTO
         public DateTime FechaIngreso { get; set; }
         public string Horario { get; set; } = null!;
         public string Horas { get; set; } = null!;
-        public byte[]? Imagen { get; set; }=null!;
+        public string Imagen { get; set; }=null!;
         public decimal Salario { get; set; } 
         public Guid IdDepartamento { get; set; }
         public Guid IdCargo { get; set; }

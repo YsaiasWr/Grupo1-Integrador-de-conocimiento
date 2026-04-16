@@ -714,7 +714,6 @@
           },
           "imagen": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "salario": {
@@ -849,7 +848,6 @@
           },
           "imagen": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "salario": {
@@ -946,7 +944,6 @@
           },
           "imagen": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "salario": {

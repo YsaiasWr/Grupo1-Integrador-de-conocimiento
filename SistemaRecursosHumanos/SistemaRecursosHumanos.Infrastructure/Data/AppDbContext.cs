@@ -28,12 +28,20 @@ namespace SistemaRecursosHumanos.Infrastructure.Data
             builder.Entity<Empleados>().OwnsOne(e => e.Documento);
             builder.Entity<Empleados>().OwnsOne(e => e.Telefono);
 
-            // (opcional si tienes más)
             // 🔹 CLAVES PRIMARIAS
             builder.Entity<Empleados>().HasKey(e => e.IdEmpleado);
             builder.Entity<Departamento>().HasKey(d => d.IdDepartamento);
             builder.Entity<Cargo>().HasKey(c => c.IdCargo);
             builder.Entity<Asistencia>().HasKey(a => a.IdAsistencia);
+
+            // 🔹 CONFIGURACIÓN DECIMAL (🔥 ESTO ES LO QUE TE FALTA)
+            builder.Entity<Cargo>()
+                .Property(c => c.Sueldo)
+                .HasPrecision(18, 2);
+
+            builder.Entity<Empleados>()
+                .Property(e => e.Salario)
+                .HasPrecision(18, 2);
 
             // 🔹 RELACIONES
 

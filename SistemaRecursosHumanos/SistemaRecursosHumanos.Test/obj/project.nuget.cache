@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MWO0/D9rYKA=",
+  "dgSpecHash": "X4IT36hXRZg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\source\\repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Grupo1-Integrador-de-conocimiento\\SistemaRecursosHumanos\\SistemaRecursosHumanos.Test\\SistemaRecursosHumanos.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
